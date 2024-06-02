@@ -1,14 +1,11 @@
 .NavbarDiv {
-  // background: rgb(252, 182, 31);
-  // height: 8vh;
   display: flex;
   padding: 20px;
   justify-content: space-between;
-  // align-items: center;
   cursor: pointer;
-  // background: red;
-  // display: none;
-
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Optional: Ensure the navbar stays above other content */
   a {
     text-decoration: none;
     color: black;

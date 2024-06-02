@@ -8,8 +8,10 @@ const Portfolio = () => {
     <>
       <div className="PortfolioSec">
         <div className="TextHeading">
-          <h4>Portfolio</h4>
-          <h2>Each project is a unique piece of development</h2>
+          <h4 style={{ color: "blue" }}>PORTFOLIO</h4>
+          <h2 style={{ marginTop: "10px" }}>
+            Each project is a unique piece of development
+          </h2>
         </div>
       </div>
       <div className="ProjectSection">
@@ -28,15 +30,44 @@ const Portfolio = () => {
           </div>
           <div className="Links">
             <div className="SameLinks">
-              <h3>Code</h3>
+              <p style={{ color: "black" }}>Code</p>
               <FaGithub />
             </div>
             <div className="SameLinks">
-              <h3>Live Demo</h3>
-              <FaExternalLinkAlt/>
+              <p style={{ color: "black" }}>Live Demo</p>
+              <FaExternalLinkAlt />
             </div>
           </div>
         </div>
+      </div>
+
+      <div style={{ marginTop: "120px" }} className="ProjectSection">
+        <div className="ProjectDetails">
+          <h3>Artyss</h3>
+          <p>
+            This website specializes in providing residential and commercial
+            luxury interior solutions. It offers a comprehensive range of
+            services and products tailored to meet the sophisticated tastes and
+            high standards of discerning clients. The platform showcases
+            exquisite interior designs and allows clients to explore and
+            purchase premium interior solutions.
+          </p>
+          <div className="Technology">
+            <h3>React</h3>
+            <h3>SCSS</h3>
+          </div>
+          <div className="Links">
+            <div className="SameLinks">
+              <p style={{ color: "black" }}>Code</p>
+              <FaGithub />
+            </div>
+            <div className="SameLinks">
+              <p style={{ color: "black" }}>Live Demo</p>
+              <FaExternalLinkAlt />
+            </div>
+          </div>
+        </div>
+        <img src="img/artyss.png" alt="" />
       </div>
     </>
   );
