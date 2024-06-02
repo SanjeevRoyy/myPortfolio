@@ -1,0 +1,86 @@
+.NavbarDiv {
+  // background: rgb(252, 182, 31);
+  // height: 8vh;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  // align-items: center;
+  cursor: pointer;
+  // background: red;
+  // display: none;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+  img {
+    // padding: 10px;
+    width: 50px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .NavbarDiv {
+    display: none;
+    img {
+      display: none;
+    }
+  }
+  .NavLinks {
+    // background: red;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hamburger {
+    // align-items: center;
+    // background: rgb(252, 182, 31);
+    display: block;
+    height: 70px;
+    text-align: right;
+    padding: 15px;
+  }
+}
+
+.HamburgerMenu {
+  background: rgb(252, 182, 31);
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-around;
+  padding: 10px;
+  height: 40vh;
+
+  a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .NavbarDiv.show {
+    display: flex;
+    flex-direction: column;
+    // height: 36vh;
+  }
+}
+@media only screen and (max-width: 600px) {
+  // .NavbarDiv:hover{
+  //     // background: red;
+  // }
+}
+.NavLinks {
+  display: flex;
+  gap: 40px;
+  // justify-content: space-between
+}
