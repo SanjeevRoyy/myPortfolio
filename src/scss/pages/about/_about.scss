@@ -1,0 +1,10 @@
+.AboutDiv{
+    // padding: 40px;
+    display: flex;
+    justify-content: center;
+    img{
+        object-fit: cover;
+        height: 150px;
+        width: 400px;
+    }
+}
