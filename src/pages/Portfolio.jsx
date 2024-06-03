@@ -17,7 +17,7 @@ const Portfolio = () => {
       <div className="ProjectSection">
         <img src="img/ecommerce.png" alt="" />
         <div className="ProjectDetails">
-          <h3>Ecommerce Website</h3>
+          <h3>Ecommerce Website </h3>
           <p>
             This is an e-commerce platform designed to provide users with a
             seamless online shopping experience for clothing. Our website allows
@@ -31,11 +31,23 @@ const Portfolio = () => {
           <div className="Links">
             <div className="SameLinks">
               <p style={{ color: "black" }}>Code</p>
-              <FaGithub />
+              <a
+                style={{ color: "black" }}
+                href="https://github.com/SanjeevRoyy/Ecommerce"
+                target="blank"
+              >
+                <FaGithub />
+              </a>
             </div>
             <div className="SameLinks">
               <p style={{ color: "black" }}>Live Demo</p>
-              <FaExternalLinkAlt />
+              <a
+                style={{ color: "black" }}
+                href="https://ecommerce-one-jade-91.vercel.app/"
+                target="blank"
+              >
+                <FaExternalLinkAlt />
+              </a>
             </div>
           </div>
         </div>
@@ -59,11 +71,19 @@ const Portfolio = () => {
           <div className="Links">
             <div className="SameLinks">
               <p style={{ color: "black" }}>Code</p>
-              <FaGithub />
+              <a
+                style={{ color: "black" }}
+                href="https://github.com/SanjeevRoyy/office_work"
+                target="blank"
+              >
+                <FaGithub />
+              </a>
             </div>
             <div className="SameLinks">
               <p style={{ color: "black" }}>Live Demo</p>
-              <FaExternalLinkAlt />
+              <a style={{color:"black"}} href="https://artyss-final.vercel.app/" target="blank">
+                <FaExternalLinkAlt />
+              </a>
             </div>
           </div>
         </div>

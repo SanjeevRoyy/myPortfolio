@@ -2,24 +2,22 @@
   margin-top: 20px;
   padding: 100px;
   display: flex;
-  // flex-direction: column;
   justify-content: center;
 }
 .TextHeading {
   width: 63%;
 }
 .ProjectSection {
-  text-align: center;
-  display: flex;
+  display: flex;  
   gap: 40px;
   justify-content: center;
-
   img {
     width: 300px;
   }
 }
 .ProjectDetails {
   width: 26%;
+  text-align: center;
   p {
     margin-top: 10px;
     color: rgb(104, 100, 100);
@@ -31,13 +29,13 @@
   display: flex;
   gap: 40px;
 }
-.Links{
+.Links {
   margin-top: 40px;
   gap: 40px;
   display: flex;
   justify-content: center;
 }
-.SameLinks{
+.SameLinks {
   display: flex;
   gap: 10px;
   align-items: center;
