@@ -5,8 +5,8 @@ import { IoMdMail } from "react-icons/io";
 
 const Contact = () => {
   return (
-    <div className="ContactDiv">
-      <h2>GET IN TOUCH</h2>
+    <div id="contact" className="ContactDiv">
+      <h3 style={{textAlign:"center"}}>GET IN TOUCH</h3>
       <div className="Details">
         <div>
           <FaLocationDot />
@@ -16,7 +16,7 @@ const Contact = () => {
         <div>
           <FaPhoneAlt />
           <h3>Phone</h3>
-          <p>9829310011</p>
+          <p>+977-9829310011</p>
         </div>
         <div>
           <IoMdMail />

@@ -19,18 +19,18 @@ const Navbar = () => {
           <h3>Sanjeev.dev</h3>
         </div>
         <div className="NavLinks">
-          <Link className="link" to="/">
+          <a href="#home"  className="link" >
             Home
-          </Link>
-          <Link className="link" to="/courses">
+          </a>
+          <a href="#about" className="link" >
             About
-          </Link>
-          <Link className="link" to="/services">
+          </a>
+          <a href="#project" className="link" >
             Project
-          </Link>
-          <Link className="link" to="/blog">
+          </a>
+          <a href="#contact" className="link" to="/blog">
             Contact
-          </Link>
+          </a>
         </div>
       </div>
     </>

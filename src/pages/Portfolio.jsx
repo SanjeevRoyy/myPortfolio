@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa";
 const Portfolio = () => {
   return (
     <>
-      <div className="PortfolioSec">
+      <div id="project" className="PortfolioSec">
         <div className="TextHeading">
           <h4 style={{ color: "blue" }}>PORTFOLIO</h4>
           <h2 style={{ marginTop: "10px" }}>

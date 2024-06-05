@@ -1,11 +1,15 @@
 .ContactDiv{
-    margin-top: 40px;
-   padding: 20px;
-   background: whitesmoke;
+    margin-top: 140px;
+//    padding: 0px;
+//    background: whitesmoke;
+//    text-align: center;
    
 }
 .Details{
     margin-top: 40px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+
 }

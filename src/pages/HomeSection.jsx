@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 
 const HomeSection = () => {
   return (
-    <div className="HomeDiv">
+    <div id="home" className="HomeDiv">
       <div className="LeftSection">
         <div className="TitleSec">
           <h1>Front-end Developer</h1> <br />

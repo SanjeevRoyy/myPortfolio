@@ -12,7 +12,7 @@ const About = () => {
     },
   };
   return (
-    <div className="AboutDiv">
+    <div id="about" className="AboutDiv">
       <div>
         <Lottie options={defaultOptions} height={260} width={260} />
       </div>
