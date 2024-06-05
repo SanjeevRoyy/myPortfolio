@@ -1,15 +1,22 @@
-.ContactDiv{
-    margin-top: 140px;
-//    padding: 0px;
-//    background: whitesmoke;
-//    text-align: center;
-   
+.ContactDiv {
+  margin-top: 140px;
+  //    padding: 0px;
+  //    background: whitesmoke;
+  //    text-align: center;
 }
-.Details{
-    margin-top: 40px;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    text-align: center;
-
+.Details {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: center;
+  p {
+    color: rgb(104, 100, 100);
+  }
+}
+.AddressSection{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
 }
