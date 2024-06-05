@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
 
@@ -17,7 +16,7 @@ const Navbar = () => {
       </div>
       <div className={`NavbarDiv ${showNavbar ? "show" : ""}`}>
         <div>
-            <h3>Sanjeev.dev</h3>
+          <h3>Sanjeev.dev</h3>
         </div>
         <div className="NavLinks">
           <Link className="link" to="/">
@@ -32,7 +31,6 @@ const Navbar = () => {
           <Link className="link" to="/blog">
             Contact
           </Link>
-         
         </div>
       </div>
     </>

@@ -1,4 +1,5 @@
 import About from "./About";
+import Contact from "./Contact";
 import HomeSection from "./HomeSection";
 import Portfolio from "./Portfolio";
 
@@ -7,9 +8,13 @@ const Home = () => {
     <>
       <HomeSection />
       <About />
-      <Portfolio/>
-      <br /><br /><br /><br />
-    </> 
+      <Portfolio />
+      <Contact/>
+      <br />
+      <br />
+      <br />
+      <br />
+    </>
   );
 };
 

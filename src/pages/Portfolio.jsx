@@ -81,7 +81,11 @@ const Portfolio = () => {
             </div>
             <div className="SameLinks">
               <p style={{ color: "black" }}>Live Demo</p>
-              <a style={{color:"black"}} href="https://artyss-final.vercel.app/" target="blank">
+              <a
+                style={{ color: "black" }}
+                href="https://artyss-final.vercel.app/"
+                target="blank"
+              >
                 <FaExternalLinkAlt />
               </a>
             </div>
