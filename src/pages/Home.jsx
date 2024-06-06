@@ -10,10 +10,7 @@ const Home = () => {
       <About />
       <Portfolio />
       <Contact/>
-      <br />
-      <br />
-      <br />
-      <br />
+     <br />
     </>
   );
 };

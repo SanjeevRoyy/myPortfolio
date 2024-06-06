@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link } from "react-router-dom";
+import { Link, Route, Routes, useNavigate } from "react-router-dom";
 
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false);
+  const navigate = useNavigate();
 
   const toggleNavbar = () => {
     setShowNavbar(!showNavbar);
@@ -31,6 +32,7 @@ const Navbar = () => {
           <a href="#contact" className="link" to="/blog">
             Contact
           </a>
+         
         </div>
       </div>
     </>
