@@ -45,6 +45,23 @@
   gap: 40px;
   justify-content: center;
   padding: 40px;
-  
-  
+}
+.notification {
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+  z-index: 1000;
+}
+
+.notification.success {
+  background-color: green;
+}
+
+.notification.error {
+  background-color: red;
 }
