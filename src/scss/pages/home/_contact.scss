@@ -5,18 +5,46 @@
   //    text-align: center;
 }
 .Details {
-  margin-top: 40px;
+  // margin-top: 40px;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
   text-align: center;
   p {
     color: rgb(104, 100, 100);
   }
 }
-.AddressSection{
-   display: flex;
-   align-items: center;
-   justify-content: center;
-   gap: 10px;
+.AddressSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.ContactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  input {
+    padding: 10px;
+    // height: 30px
+  }
+  textarea {
+    // height: 70px;
+    padding: 20px;
+  }
+  button {
+    padding: 5px;
+    width: 100px;
+    // border-radius: 10px;
+  }
+}
+.ContactSection {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px;
+  
+  
 }
