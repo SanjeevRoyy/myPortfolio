@@ -8,7 +8,11 @@
     text-align: center;
     padding: 20px;
     .TextHeading {
+      margin-top: 40px;
       width: 100%;
+      h2{
+        font-size: 20px;
+      }
     }
   }
 }
@@ -50,7 +54,7 @@
   gap: 40px;
 }
 .Links {
-  margin-top: 40px;
+  margin-top: 10px;
   gap: 40px;
   display: flex;
   justify-content: center;
@@ -63,7 +67,7 @@
 .MarginUp{
   margin-top: 120px;
   @media only screen and (max-width:800px){
-    margin-top: 10px;
+    margin-top: 40px;
     flex-direction: column-reverse;
   }
 }

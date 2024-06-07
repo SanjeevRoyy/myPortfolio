@@ -5,26 +5,26 @@
   justify-content: center;
   gap: 40px;
   align-items: center;
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width: 800px) {
     flex-direction: column-reverse;
     padding: 20px;
     text-align: center;
+    justify-content: center;
     margin-top: 40px;
-    img{
+    img {
       width: 100%;
     }
   }
-  img {
-    object-fit: cover;
-    height: 260px;
-    width: 260px;
-    border-radius: 5%;
-  }
+  // img {
+  //   object-fit: cover;
+  //   height: 260px;
+  //   width: 260px;
+  //   border-radius: 5%;
+  // }
 }
 .Right {
-  @media only screen and (max-width:800px) {
+  @media only screen and (max-width: 800px) {
     width: 100%;
-   
   }
   width: 35%;
   p {
@@ -32,8 +32,8 @@
     color: rgb(104, 100, 100);
   }
 }
-.BottonImage {
-  position: absolute;
-  left: 411px;
-  top: 723px;
-}
+// .BottonImage {
+//   position: absolute;
+//   left: 411px;
+//   top: 723px;
+// }

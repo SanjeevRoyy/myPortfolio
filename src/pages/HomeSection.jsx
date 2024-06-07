@@ -20,7 +20,7 @@ const HomeSection = () => {
             href="https://www.linkedin.com/in/sanjeev-ray-b9087924a/"
             target="blank"
           >
-            <FaLinkedin size={25} />
+            <FaLinkedin  size={25} />
           </a>
           <a href="https://github.com/SanjeevRoyy" target="blank">
             <FaGithub size={25} />
