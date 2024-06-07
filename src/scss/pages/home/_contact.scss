@@ -35,8 +35,13 @@
     padding: 20px;
   }
   button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: black;
     padding: 5px;
     width: 100px;
+    color: white;
   }
   @media only screen and (max-width:800px){
     width: 100%;
