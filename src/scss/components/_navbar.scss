@@ -6,7 +6,7 @@
   position: sticky;
   top: 0;
   background: white;
-  z-index: 1000; /* Optional: Ensure the navbar stays above other content */
+  z-index: 1000;
   a {
     text-decoration: none;
     color: black;
@@ -37,6 +37,7 @@
   .hamburger {
     display: none;
   }
+  
 }
 
 @media only screen and (max-width: 600px) {
