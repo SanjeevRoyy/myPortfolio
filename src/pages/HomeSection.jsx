@@ -28,7 +28,7 @@ const HomeSection = () => {
         </div>
         <div className="TechStack">
           <h4>Tech Stack</h4>
-          <div class="vl"></div>
+          <div className="vl"></div>
           <div className="TechStackIcons">
             <a href="https://html.com/" target="blank">
               <img src="icons/html.png" alt="" />
