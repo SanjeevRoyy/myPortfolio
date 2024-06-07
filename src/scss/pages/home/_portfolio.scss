@@ -3,16 +3,36 @@
   padding: 100px;
   display: flex;
   justify-content: center;
+  @media only screen and (max-width: 800px) {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    .TextHeading {
+      width: 100%;
+    }
+  }
 }
 .TextHeading {
   width: 63%;
 }
+
 .ProjectSection {
   display: flex;
   gap: 40px;
   justify-content: center;
   img {
     width: 300px;
+  }
+  @media only screen and (max-width:800px){
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    img{
+      width: 100%;
+    }
+    .ProjectDetails{
+        width: 100%;
+    }
   }
 }
 .ProjectDetails {

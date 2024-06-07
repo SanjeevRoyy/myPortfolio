@@ -2,8 +2,14 @@
   display: flex;
   justify-content: center;
   padding: 100px;
-  // height: 50vh;
-  // background-color: red;
+
+  @media only screen and (max-width: 800px) {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+    margin-top: 40px;
+  }
   img {
     width: 220px;
     border-radius: 50%;
@@ -11,6 +17,22 @@
 }
 .LeftSection {
   width: 40%;
+
+  @media only screen and (max-width: 800px) {
+    // width: "100%";
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+      text-wrap: nowrap;
+    }
+    p {
+      // width: 400px;
+    }
+  }
   p {
     margin-top: 10px;
     color: rgb(104, 100, 100);
@@ -29,7 +51,7 @@
   display: flex;
   gap: 10px;
   margin-top: 40px;
-  a{
+  a {
     color: black;
     // text-decoration: none;
   }
@@ -45,7 +67,7 @@
   cursor: pointer;
   display: flex;
   gap: 20px;
-  a{
+  a {
     color: black;
   }
   img {
@@ -56,4 +78,11 @@
 .vl {
   border-left: 3px solid rgb(104, 100, 100);
   height: 25px;
+}
+@media only screen and (max-width: 800px) {
+  .RightSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
