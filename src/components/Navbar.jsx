@@ -16,9 +16,7 @@ const Navbar = () => {
         <RxHamburgerMenu onClick={toggleNavbar} size={30} />
       </div>
       <div className={`NavbarDiv ${showNavbar ? "show" : ""}`}>
-        <div>
-          <h3>Sanjeev.dev</h3>
-        </div>
+        
         <div className="NavLinks">
           <a href="#home"  className="link" >
             Home
