@@ -52,7 +52,7 @@ const HomeSection = () => {
         </div>
       </div>
       <div className="RightSection">
-        <img src="img/user1.jpg" alt="" />
+        <img src="img/sanjeev.png" alt="" />
       </div>
     </div>
   );
