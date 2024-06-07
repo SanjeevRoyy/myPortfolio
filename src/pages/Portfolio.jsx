@@ -53,7 +53,7 @@ const Portfolio = () => {
         </div>
       </div>
 
-      <div style={{ marginTop: "120px" }} className="ProjectSection">
+      <div className="ProjectSection MarginUp">
         <div className="ProjectDetails">
           <h3>Artyss</h3>
           <p>

@@ -60,3 +60,10 @@
   gap: 10px;
   align-items: center;
 }
+.MarginUp{
+  margin-top: 120px;
+  @media only screen and (max-width:800px){
+    margin-top: 10px;
+    flex-direction: column-reverse;
+  }
+}

@@ -1,19 +1,21 @@
 .ContactDiv {
   margin-top: 140px;
-  //    padding: 0px;
-  //    background: whitesmoke;
-  //    text-align: center;
+  @media only screen and (max-width:800px){
+    margin-top: 20px;
+  }
 }
 .Details {
-  // margin-top: 40px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 20px;
   text-align: center;
+
   p {
     color: rgb(104, 100, 100);
   }
+
+ 
 }
 .AddressSection {
   display: flex;
@@ -28,16 +30,24 @@
   align-items: center;
   input {
     padding: 10px;
-    // height: 30px
   }
   textarea {
-    // height: 70px;
     padding: 20px;
   }
   button {
     padding: 5px;
     width: 100px;
-    // border-radius: 10px;
+  }
+  @media only screen and (max-width:800px){
+    width: 100%;
+    input{
+      text-decoration-style: none;
+      width: 100%;
+    }
+    textarea{
+      padding: 10px;
+      width:100%;
+    }
   }
 }
 .ContactSection {
@@ -45,6 +55,10 @@
   gap: 40px;
   justify-content: center;
   padding: 40px;
+  @media only screen and (max-width:800px){
+    flex-direction: column-reverse;
+  
+  }
 }
 .notification {
   position: fixed;
