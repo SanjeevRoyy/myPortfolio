@@ -61,7 +61,7 @@ const Contact = () => {
     <div id="contact" className="ContactDiv">
       {successMessage && <div className="notification success">{successMessage}</div>}
       {errorMessage && <div className="notification error">{errorMessage}</div>}
-      <h3 style={{ textAlign: "center" }}>GET IN TOUCH</h3>
+      <h4 style={{ color: "blue",textAlign:"center" }}>GET IN TOUCH</h4>
       <div className="ContactSection">
         <div className="Details">
           <div>

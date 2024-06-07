@@ -26,11 +26,14 @@
     }
   }
   .NavLinks {
-    // background: red;
+    
     display: flex;
     flex-direction: column;
     text-align: center;
   }
+}
+.NavLinks a:hover{
+    border-bottom: 2px solid blue;
 }
 
 @media only screen and (max-width: 1600px) {

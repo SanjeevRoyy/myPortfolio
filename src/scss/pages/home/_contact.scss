@@ -1,7 +1,7 @@
 .ContactDiv {
   margin-top: 140px;
   @media only screen and (max-width:800px){
-    margin-top: 20px;
+    margin-top: 40px;
   }
 }
 .Details {
@@ -40,6 +40,7 @@
   }
   @media only screen and (max-width:800px){
     width: 100%;
+   
     input{
       text-decoration-style: none;
       width: 100%;
@@ -56,6 +57,7 @@
   justify-content: center;
   padding: 40px;
   @media only screen and (max-width:800px){
+    padding: 20px;
     flex-direction: column-reverse;
   
   }
