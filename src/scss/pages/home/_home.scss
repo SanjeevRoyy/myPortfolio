@@ -40,6 +40,12 @@
   img {
     width: 40px;
   }
+  @media only screen and (max-width:500px) {
+    flex-direction: column;
+    h1{
+      font-size: 25px;
+    }
+  }
   
 }
 

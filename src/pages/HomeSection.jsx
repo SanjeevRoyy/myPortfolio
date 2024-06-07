@@ -8,7 +8,7 @@ const HomeSection = () => {
       
       <div className="LeftSection">
         <div className="TitleSec">
-          <h1>Front-end Developer</h1> <br />
+          <h1>Front-end Developer</h1> 
           <img src="img/wave.png" alt="" />
         </div>
         <p>
