@@ -11,7 +11,7 @@
 /* subtitle */
 .contact__subtitle {
   text-align: center;
-  color: #00c2ff;          // accent from your palette
+  color: #00c2ff; // accent from your palette
   letter-spacing: 2px;
   font-weight: 600;
   margin-bottom: 2rem;
@@ -22,7 +22,7 @@
   display: flex;
   gap: 3rem;
   justify-content: center;
-  padding: 3rem;
+  padding: 0rem 6rem 0rem 6rem  ;
   border-radius: 1.5rem;
   background: #fff;
   // box-shadow: 0 12px 40px rgba(0, 0, 0, 0.06);
@@ -63,7 +63,7 @@
 .contact__icon {
   flex-shrink: 0;
   font-size: 1.4rem;
-  color: #000000;          // primary accent
+  color: #000000; // primary accent
 }
 
 /* right column (form) */
