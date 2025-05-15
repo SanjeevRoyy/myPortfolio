@@ -10,7 +10,7 @@
     .TextHeading {
       margin-top: 40px;
       width: 100%;
-      h2{
+      h2 {
         font-size: 20px;
       }
     }
@@ -25,23 +25,32 @@
   gap: 40px;
   justify-content: center;
   img {
-    width: 300px;
+    width: 400px;
+    max-height: 260px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: scale(1.02);
+      box-shadow: 0 12px 32px rgba(0, 0, 0, 0.15);
+    }
   }
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width: 800px) {
     flex-direction: column;
     padding: 20px;
     align-items: center;
-    img{
+    img {
       width: 100%;
     }
-    .ProjectDetails{
-        width: 100%;
+    .ProjectDetails {
+      width: 100%;
     }
   }
 }
 .ProjectDetails {
   width: 26%;
-  text-align: center;
   p {
     margin-top: 10px;
     color: rgb(104, 100, 100);
@@ -64,9 +73,9 @@
   gap: 10px;
   align-items: center;
 }
-.MarginUp{
+.MarginUp {
   margin-top: 120px;
-  @media only screen and (max-width:800px){
+  @media only screen and (max-width: 800px) {
     margin-top: 40px;
     flex-direction: column-reverse;
   }

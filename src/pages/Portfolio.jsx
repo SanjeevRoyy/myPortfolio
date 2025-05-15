@@ -1,7 +1,26 @@
 import React from "react";
+import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 
-import { FaExternalLinkAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
+const projects = [
+  {
+    title: "WEB CREATION",
+    description:
+      "A professional company website designed to showcase services, build brand presence, and engage potential clients. It provides essential business information and a modern user experience to create trust and drive conversions.",
+    tech: ["React", "SCSS"],
+    codeLink: "https://github.com/SanjeevRoyy/Cweb",
+    liveLink: "https://cweb-ten.vercel.app/",
+    image: "img/cweb.png",
+  },
+  {
+    title: "GM FOOD",
+    description:
+      "An online food ordering website that allows users to explore menus, choose their favorite meals, and place orders quickly and conveniently. Ideal for restaurants and food delivery services.",
+    tech: ["React", "Mantine"],
+    codeLink: "https://github.com/SanjeevRoyy/food-web",
+    liveLink: "https://food-web-phi-three.vercel.app/",
+    image: "img/food.png",
+  },
+];
 
 const Portfolio = () => {
   return (
@@ -14,85 +33,92 @@ const Portfolio = () => {
           </h2>
         </div>
       </div>
-      <div className="ProjectSection">
-        <img src="img/ecommerce.png" alt="" />
-        <div className="ProjectDetails">
-          <h3>Ecommerce Website </h3>
-          <p>
-            This is an e-commerce platform designed to provide users with a
-            seamless online shopping experience for clothing. Our website allows
-            users to browse, select, and purchase a wide range of clothing
-            items, all from the comfort of their own homes..
-          </p>
-          <div className="Technology">
-            <h3>React</h3>
-            <h3>SCSS</h3>
-          </div>
-          <div className="Links">
-            <div className="SameLinks">
-              <p style={{ color: "black" }}>Code</p>
-              <a
-                style={{ color: "black" }}
-                href="https://github.com/SanjeevRoyy/Ecommerce"
-                target="blank"
-              >
-                <FaGithub />
-              </a>
-            </div>
-            <div className="SameLinks">
-              <p style={{ color: "black" }}>Live Demo</p>
-              <a
-                style={{ color: "black" }}
-                href="https://ecommerce-one-jade-91.vercel.app/"
-                target="blank"
-              >
-                <FaExternalLinkAlt />
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      <div className="ProjectSection MarginUp">
-        <div className="ProjectDetails">
-          <h3>Artyss</h3>
-          <p>
-            This website specializes in providing residential and commercial
-            luxury interior solutions. It offers a comprehensive range of
-            services and products tailored to meet the sophisticated tastes and
-            high standards of discerning clients. The platform showcases
-            exquisite interior designs and allows clients to explore and
-            purchase premium interior solutions.
-          </p>
-          <div className="Technology">
-            <h3>React</h3>
-            <h3>SCSS</h3>
-          </div>
-          <div className="Links">
-            <div className="SameLinks">
-              <p style={{ color: "black" }}>Code</p>
-              <a
-                style={{ color: "black" }}
-                href="https://github.com/SanjeevRoyy/office_work"
-                target="blank"
-              >
-                <FaGithub />
-              </a>
-            </div>
-            <div className="SameLinks">
-              <p style={{ color: "black" }}>Live Demo</p>
-              <a
-                style={{ color: "black" }}
-                href="https://artyss-final.vercel.app/"
-                target="blank"
-              >
-                <FaExternalLinkAlt />
-              </a>
-            </div>
-          </div>
+      {projects.map((project, index) => (
+        <div
+          key={index}
+          className={`ProjectSection ${index % 2 !== 0 ? "MarginUp" : ""}`}
+        >
+          {index % 2 === 0 ? (
+            <>
+              <img src={project.image} alt={project.title} />
+              <div className="ProjectDetails">
+                <h3 style={{ fontSize: "24px", fontWeight: "600" }}>
+                  {project.title}
+                </h3>
+                <p>{project.description}</p>
+
+                <div className="Technology">
+                  {project.tech.map((tech, i) => (
+                    <h3 key={i}>{tech}</h3>
+                  ))}
+                </div>
+                <div className="Links">
+                  <div className="SameLinks">
+                    <p style={{ color: "black" }}>Code</p>
+                    <a
+                      style={{ color: "black" }}
+                      href={project.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="SameLinks">
+                    <p style={{ color: "black" }}>Live Demo</p>
+                    <a
+                      style={{ color: "black" }}
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaExternalLinkAlt />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </>
+          ) : (
+            <>
+              <div className="ProjectDetails">
+                <h3>{project.title}</h3>
+                <p>{project.description}</p>
+                <div className="Technology">
+                  {project.tech.map((tech, i) => (
+                    <h3 key={i}>{tech}</h3>
+                  ))}
+                </div>
+                <div className="Links">
+                  <div className="SameLinks">
+                    <p style={{ color: "black" }}>Code</p>
+                    <a
+                      style={{ color: "black" }}
+                      href={project.codeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaGithub />
+                    </a>
+                  </div>
+                  <div className="SameLinks">
+                    <p style={{ color: "black" }}>Live Demo</p>
+                    <a
+                      style={{ color: "black" }}
+                      href={project.liveLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <FaExternalLinkAlt />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <img src={project.image} alt={project.title} />
+            </>
+          )}
         </div>
-        <img src="img/artyss.png" alt="" />
-      </div>
+      ))}
     </>
   );
 };
