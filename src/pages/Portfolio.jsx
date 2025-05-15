@@ -5,11 +5,20 @@ const projects = [
   {
     title: "WEB CREATION",
     description:
-      "A professional company website designed to showcase services, build brand presence, and engage potential clients. It provides essential business information and a modern user experience to create trust and drive conversions.",
+    "A professional company website designed to showcase services, build brand presence, and engage potential clients. It provides essential business information and a modern user experience to create trust and drive conversions.",
     tech: ["React", "SCSS"],
     codeLink: "https://github.com/SanjeevRoyy/Cweb",
     liveLink: "https://cweb-ten.vercel.app/",
     image: "img/cweb.png",
+  },
+  {
+    title: "ScanMenu (Private SaaS)",
+    description:
+      "A comprehensive SaaS platform built for restaurants, hotels, and cafes. It handles digital menu browsing, order management, billing, and analytics. Designed for efficiency and seamless restaurant operations.",
+    tech: ["React", "Mantine", "Zustand", "Node.js"],
+    codeLink: null, // Private repository
+    liveLink: "https://restaurantpravidhi.com/", 
+    image: "img/scanmenu.png",
   },
   {
     title: "GM FOOD",
