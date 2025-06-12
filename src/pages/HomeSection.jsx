@@ -48,6 +48,12 @@ const HomeSection = () => {
             <a href="https://sass-lang.com/" target="blank">
               <img src="icons/sass.png" alt="" />
             </a>
+            <a href="https://redux.com/" target="blank">
+              <img src="icons/redux.png" alt="" />
+            </a>
+            <a href="https://zustand.com/" target="blank">
+              <img src="icons/zustand.jpeg" alt="" />
+            </a>
           </div>
         </div>
       </div>
