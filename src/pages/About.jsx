@@ -21,7 +21,7 @@ const About = () => {
         <h4 style={{ color: "blue", marginBottom: "10px" }}>ABOUT ME</h4>
         <h3>A dedicated Front-End Developer based in Kathmandu, Nepal</h3>
         <p>
-          As a junior Front-End Developer, I possess an impressive arsenal of
+          As a Front-End Developer, I possess an impressive arsenal of
           skills in HTML, CSS, JavaScript, React, Tailwind, and SCSS. I excel in
           designing and maintaining responsive websites that offer smooth user
           experiences. My expertise lies in crafting dynamic, engaging
